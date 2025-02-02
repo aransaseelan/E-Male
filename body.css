@@ -1,0 +1,75 @@
+.body{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.mail{
+    background-color: #C8F4F9;
+    height: 500px;
+    width: 900px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.txtbox{
+    background-color: white;
+    height: 300px;
+    width: 800px;
+}
+.toneSelection{
+    height: 100px;
+    width: 900px;
+}
+.emailtext{
+    position:relative;
+    height: 300px;
+    width: 800px;
+    background-color: white;
+}
+.generate{
+    position:relative;
+    height: 40px;
+    width: 100px;
+    margin-top:30px;
+
+    background-color:#C8F4F9;
+    
+    border-width:4px;
+    border-style:solid;
+    border-radius:20px;
+    border-color:#7FE5F0;
+}
+.generate:hover{
+    cursor: pointer;
+    box-shadow: 2px 4px 6px rgba(0,0,0,0.05);
+}
+.toneSelection{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.Tone{
+    height: 40px;
+    width: 300px;
+
+    background-color:#C8F4F9;
+
+    border-width:4px;
+    border-style:solid;
+    border-radius:20px;
+    border-color:#7FE5F0;
+}
+.title{
+    margin-bottom:30px;
+    margin-top:30px;
+
+    font-size:30px;
+    font-weight:700;
+}
+.mailicon{
+    height: 100%;
+}

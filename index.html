@@ -5,22 +5,32 @@
         <title> E-Male </title>
 
         <link rel = "stylesheet" href="general.css">
+        <link rel = "stylesheet" href="body.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     </head>
 
     <body>
         <main class="body">
+            <div class="title">
+                Make Your E-mails Assertive!
+            </div>
+           
             <div class = "mail">
-                mail icon
+                <img class="mailicon" src="Images/mail.jpg">
                 <div class="txtbox">
-                    <input type="text">
+                    <input class="emailtext" type="text" placeholder="Enter Your E-Mail">
                 </div>
-                <button type="button">
+                <button class="generate" type="button">
                     Generate
                 </button> 
             </div>
 
             <div class="toneSelection">
-                <select name="Tone">
+                <select class="Tone">
+                    <option value="Assertive"> Choose a Tone </option>
                     <option value="Assertive"> Assertive </option>
                     <option value="Man"> Man </option>
                 </select>

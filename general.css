@@ -1,18 +1,23 @@
-.body{
-    height:100vh;
-    background-color: #C8F4F9;
-    border: 3px solid black;
-    display:grid;
-    justify-content: center;
-    align-items: center;
+body{
+    margin:0 0 0 0;
+    font-family: "Anonymous Pro" , arial;
+    background-color:white;
 }
-.mail{
-    border: 3px solid black;
-    height: 300px;
-    width: 300px;
+p{
+    margin:0;
 }
-.toneSelection{
-    border: 3px solid black;
-    height: 100px;
-    width: 300px;
+input{
+    font-family: "Anonymous Pro" , arial;
+    font-size: 20px;
+    padding-left:10px;
+}
+button{
+    font-family: "Anonymous Pro" , arial;
+    font-size: 15px;
+    font-weight:800;
+}
+select{
+    font-family: "Anonymous Pro" , arial;
+    font-size: 15px;
+    font-weight:800;
 }
