@@ -10,6 +10,11 @@ input{
     font-family: "Anonymous Pro" , arial;
     font-size: 20px;
     padding-left:10px;
+
+    border: 0px none;
+}
+textarea:focus, input:focus{
+    outline: none;
 }
 button{
     font-family: "Anonymous Pro" , arial;

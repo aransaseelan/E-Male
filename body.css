@@ -5,8 +5,13 @@
     justify-content: center;
     align-items: center;
 }
+.mailpos{
+    position:relative;
+}
+.mailicon{
+    height:500px
+}
 .mail{
-    background-color: #C8F4F9;
     height: 500px;
     width: 900px;
     display:flex;
@@ -15,25 +20,26 @@
     align-items: center;
 }
 .txtbox{
+    position:absolute;
     background-color: white;
-    height: 300px;
-    width: 800px;
+    top:20%;
+    left:18%;
 }
+
 .toneSelection{
     height: 100px;
     width: 900px;
 }
 .emailtext{
     position:relative;
-    height: 300px;
-    width: 800px;
+    height: 150px;
+    width: 300px;
     background-color: white;
 }
 .generate{
-    position:relative;
+    position:absolute;
     height: 40px;
     width: 100px;
-    margin-top:30px;
 
     background-color:#C8F4F9;
     
@@ -41,6 +47,9 @@
     border-style:solid;
     border-radius:20px;
     border-color:#7FE5F0;
+
+    top:70%;
+    right:40%;
 }
 .generate:hover{
     cursor: pointer;
@@ -69,7 +78,4 @@
 
     font-size:30px;
     font-weight:700;
-}
-.mailicon{
-    height: 100%;
 }
