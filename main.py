@@ -26,7 +26,8 @@ load_dotenv()
 st.title("Manify Email")
 
 # Try to get the API key from the environment
-api_key = os.getenv("GOOGLE_API_KEY")
+# api_key = os.getenv("GOOGLE_API_KEY")
+api_key =""
 
 # If API key is not set, allow the user to input it securely
 if not api_key:
