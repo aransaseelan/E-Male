@@ -1,0 +1,18 @@
+.body{
+    height:100vh;
+    background-color: #C8F4F9;
+    border: 3px solid black;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+}
+.mail{
+    border: 3px solid black;
+    height: 300px;
+    width: 300px;
+}
+.toneSelection{
+    border: 3px solid black;
+    height: 100px;
+    width: 300px;
+}
